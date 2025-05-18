@@ -29,11 +29,11 @@
     datetime(year: 2024, month: 3, day: 18),
     datetime(year: 2024, month: 12, day: 11),
   )[
-    - Gained hands-on experience with *Front-end technologies*, including HTML, CSS,
-      *Javascript*, *React*, React Router, *Tailwind CSS*, *APIs*, Git, GitHub, NPM,
-      PNPM, Vite and Figma
-    - Completed 7+ practical projects using technologies like HTML,
-      CSS, *Javascript*, *Typescript*, *React*, React Router, Tailwind CSS,
+    - Gained hands-on experience with *front-end technologies*, including HTML, CSS,
+      *JavaScript*, *React*, React Router, *Tailwind CSS*, *APIs*, Git, GitHub, NPM,
+      PNPM, Vite, and Figma
+    - Completed 7+ practical projects using technologies such as HTML,
+      CSS, *JavaScript*, *TypeScript*, *React*, React Router, *Tailwind CSS*, and
       *APIs*
   ]
   #education-heading(
@@ -44,7 +44,8 @@
     datetime(year: 2024, month: 2, day: 2),
     datetime(year: 2024, month: 9, day: 13),
   )[
-    - Developed responsive interfaces using HTML, CSS, *Javascript*, Bootstrap, Local Storage
+    - Developed responsive interfaces using HTML, CSS, *JavaScript*, Bootstrap,
+      and Local Storage
     - Completed 4+ projects, including a fully *responsive website* -
       #show link: underline
       #link("https://github.com/j-zunino/bootstrap-utn")[Repository] |
@@ -59,7 +60,7 @@
     datetime(year: 2023, month: 12, day: 15),
   )[
     - Studied the fundamentals of Algorithms, Pseudo-code, HTML/CSS, relational
-      databases (SQL, HeidiSQL), and basic servers fundamentals
+      databases (SQL, HeidiSQL), and basic server fundamentals
   ]
 ]
 
@@ -71,23 +72,24 @@
     datetime(year: 2024, month: 12, day: 1),
     "Present",
   )[
-    - Built and deployed 2+ Front-end applications from scratch using *React*, *TypeScript*, *Tailwind CSS*, *Vite*, and Figma
-    - Applied semantic version control (*Git*, *GitHub*), responsive design principles, and modern web development practices
+    - Built and deployed 2+ Front-end applications from scratch using *React*,
+      *TypeScript*, *Tailwind CSS*, *Vite*, and Figma
+    - Applied semantic version control with *Git* and *GitHub*, responsive design principles, and modern web development practices
   ]
 ]
 
 
 #custom-title("Projects")[
   #project-heading("RedditDeck")[
-    Typescript, React, Tailwind CSS, Vercel -
+    TypeScript, React, Tailwind CSS, Vercel -
     #show link: underline
     #link("https://github.com/j-zunino/redditdeck")[Repository] |
     #link("https://redditdeck.vercel.app/")[Deployment]
     - A *Twitter Deck*-style web app for Reddit that lets users monitor multiple
       Subreddits in a dynamic grid layout
-    - Built with *React*, *Tailwind CSS*, and *Typescript*, and deployed via Vercel
+    - Built with *React*, *Tailwind CSS*, and *TypeScript*, and deployed via Vercel
     - Fetches and displays subreddit posts data using *Reddit API*, with direct
-      link to original posts
+      link to the original post
     - Features a Reddit-inspired UI with light/dark mode toggle
   ]
 ]
@@ -95,7 +97,7 @@
 
 #custom-title("Skills")[
   #skills()[
-    - *Languages:* Spanish (Native), English (Basic/Intermediate)
+    - *Languages:* Spanish (native), English (basic/intermediate)
     - *Programming:* HTML, CSS, JavaScript, TypeScript, Lua, Nix
     - *Frameworks & Libraries:* React, Tailwind CSS
     - *Tools:* Git, GitHub, Figma, Vercel, Linux
