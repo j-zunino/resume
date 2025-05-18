@@ -73,7 +73,7 @@
     "Present",
   )[
     - Built and deployed 2+ Front-end applications from scratch using *React*,
-      *TypeScript*, *Tailwind CSS*, *Vite*, and Figma
+      *TypeScript*, *Tailwind CSS*, React Router, *Vite*, and Figma
     - Applied semantic version control with *Git* and *GitHub*, responsive design principles, and modern web development practices
   ]
 ]
@@ -88,7 +88,7 @@
     - A *Twitter Deck*-style web app for Reddit that lets users monitor multiple
       Subreddits in a dynamic grid layout
     - Built with *React*, *Tailwind CSS*, and *TypeScript*, and deployed via Vercel
-    - Fetches and displays subreddit posts data using *Reddit API*, with direct
+    - Fetches and displays Subreddit posts data using *Reddit API*, with direct
       link to the original post
     - Features a Reddit-inspired UI with light/dark mode toggle
   ]
