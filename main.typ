@@ -99,7 +99,7 @@
   #skills()[
     - *Languages:* Spanish (native), English (basic/intermediate)
     - *Programming:* HTML, CSS, JavaScript, TypeScript, Lua, Nix
-    - *Frameworks & Libraries:* React, Tailwind CSS
+    - *Frameworks & Libraries:* React, React Router, Tailwind CSS
     - *Tools:* Git, GitHub, Figma, Vercel, Linux
   ]
 ]
