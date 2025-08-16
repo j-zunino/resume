@@ -24,43 +24,49 @@
   #education-heading(
     "Universidad Nacional de Tres de Febrero",
     "Zárate, Buenos Aires",
-    "Diploma",
-    "Front-end Web Development",
+    "Course",
+    "Front-end & Back-end Development",
     datetime(year: 2024, month: 3, day: 18),
-    datetime(year: 2024, month: 12, day: 11),
+    "Present",
   )[
-    - Gained hands-on experience with *front-end technologies*, including HTML, CSS,
-      *JavaScript*, *React*, React Router, *Tailwind CSS*, *APIs*, Git, GitHub, NPM,
-      PNPM, Vite, and Figma
-    - Completed 7+ practical projects using technologies such as HTML,
-      CSS, *JavaScript*, *TypeScript*, *React*, React Router, *Tailwind CSS*, and
-      *APIs*
+    - *Front-end*
+      - Gained hands-on experience with front-end technologies, including
+        HTML, CSS, *JavaScript*, *React*, React Router, *Tailwind CSS*, *APIs*,
+        Git, GitHub, NPM, PNPM and Vite
+      - Completed 7+ practical projects using technologies such as HTML, CSS,
+        *JavaScript*, *React*, React Router, Tailwind CSS and *APIs*
+
+    - *Back-end*
+      - Currently learning back-end technologies, including *Node.js*, NPM,
+        PNPM, *Express*, *MongoDB*, *Mongoose*, JWS and *REST APIs*
+      - Will learn SQL, JWT, Swagger, Python and Flask
   ]
+
   #education-heading(
     "Centro de e-Learning UTN FRBA",
     "Zárate, Buenos Aires",
-    "Diploma",
+    "Course",
     "Professional Front-End Developer",
     datetime(year: 2024, month: 2, day: 2),
     datetime(year: 2024, month: 9, day: 13),
   )[
-    - Developed responsive interfaces using HTML, CSS, *JavaScript*, Bootstrap,
-      and Local Storage
-    - Completed 4+ projects, including a fully *responsive website* -
-      #show link: underline
-      #link("https://github.com/j-zunino/bootstrap-utn")[Repository] |
-      #link("https://j-zunino.github.io/bootstrap-utn/")[Deployment]
+    - Developed responsive interfaces using HTML, CSS, *JavaScript* and
+      Bootstrap
+    - Completed 4+ projects, including a fully responsive website with
+      Bootstrap and *JavaScript*
   ]
+
   #education-heading(
     "E.E.S.T. Nº3 Ing. Agustín Rocca",
     "Zárate, Buenos Aires",
-    "Diploma",
+    "High School Diploma",
     "Personal and Professional Computer Technician",
     datetime(year: 2017, month: 3, day: 14),
     datetime(year: 2023, month: 12, day: 15),
   )[
-    - Studied the fundamentals of Algorithms, Pseudo-code, HTML/CSS, relational
-      databases (SQL, HeidiSQL), and basic server fundamentals
+    - Studied the fundamentals of programming, pseudo-code, algorithms, HTML,
+      CSS, relational
+      databases (SQL, HeidiSQL), server and network protocols and more
   ]
 ]
 
@@ -69,28 +75,43 @@
     "Front-end Developer",
     "Freelance",
     "Zárate, Buenos Aires",
-    datetime(year: 2024, month: 12, day: 1),
+    datetime(year: 2025, month: 3, day: 1),
     "Present",
   )[
-    - Built and deployed 2+ Front-end applications from scratch using *React*,
-      *TypeScript*, *Tailwind CSS*, React Router, *Vite*, and Figma
-    - Applied semantic version control with *Git* and *GitHub*, responsive design principles, and modern web development practices
+    - #project-heading("Jet-Aime", project-url: "https://jet-aime.com.ar")[
+        TypeScript, React, Tailwind CSS, TanStack Query, TanStack Router,
+        Express.js, Mongoose and MongoDB
+        - Deployed a hair product e-commerce platform for a local business
+        - Built a REST API with Express.js, Mongoose and MongoDB
+        - Front-end built with TypeScript, React, Tailwind CSS, TanStack
+          Query, TanStack Router
+      ]
   ]
 ]
 
 
 #custom-title("Projects")[
-  #project-heading("RedditDeck")[
-    TypeScript, React, Tailwind CSS, Vercel -
-    #show link: underline
-    #link("https://github.com/j-zunino/redditdeck")[Repository] |
-    #link("https://redditdeck.vercel.app/")[Deployment]
-    - A *Twitter Deck*-style web app for Reddit that lets users monitor multiple
-      Subreddits in a dynamic grid layout
-    - Built with *React*, *Tailwind CSS*, and *TypeScript*, and deployed via Vercel
-    - Fetches and displays Subreddit posts data using *Reddit API*, with direct
-      link to the original post
-    - Features a Reddit-inspired UI with light/dark mode toggle
+  #project-heading(
+    "RedditDeck",
+    project-url: "https://github.com/j-zunino/redditdeck",
+  )[
+    TypeScript, React, Tailwind CSS, Vercel
+    - A *Twitter Deck*-style web app for Reddit that lets users monitor
+      multiple Subreddits in a dynamic grid layout
+    - Built with *React*, *Tailwind CSS*, and *TypeScript*, and deployed
+      via Vercel
+    - Fetches and displays Subreddit posts data using Reddit API
+    - Reddit-inspired UI with light/dark mode
+  ]
+  #project-heading(
+    "SpeedTest",
+    project-url: "https://github.com/j-zunino/bootstrap-utn",
+  )[
+    // TODO: Add description for results
+    HTML, JavaScript, Bootstrap
+    - A Human Benchmark-style web that lets users test their click speed
+      and reaction time
+    - Built with HTML, Bootstrap, *JavaScript*
   ]
 ]
 
@@ -99,7 +120,8 @@
   #skills()[
     - *Languages:* Spanish (native), English (basic/intermediate)
     - *Programming:* HTML, CSS, JavaScript, TypeScript, Lua, Nix
-    - *Frameworks & Libraries:* React, React Router, Tailwind CSS
-    - *Tools:* Git, GitHub, Figma, Vercel, Linux
+    - *Frameworks & Libraries:* React, React Router, TanStack Query,
+      TanStack Router, Tailwind CSS
+    - *Tools:* Git, GitHub, Figma, Vercel, Linux, Vim, NeoVim
   ]
 ]
