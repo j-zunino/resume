@@ -31,7 +31,7 @@
     datetime(year: 2024, month: 3, day: 18), // start-date
     datetime(year: 2025, month: 12, day: 2), // end-date
   )[
-    - *Front-end*: JavaScript, React, React Route and TailwindCSS.
+    - *Front-end*: JavaScript, React, React Router and TailwindCSS.
     - *Back-end*: NodeJS, ExpressJS, JWS, MongoDB, Mongoose, SQL, Sequilize and
       Python (Flask).
     - Built and tested complete REST APIs.
@@ -57,56 +57,74 @@
     datetime(year: 2017, month: 3, day: 14),
     datetime(year: 2023, month: 12, day: 15),
   )[
-    - Learned the fundamentals of programming, pseudo-code, algorithms, HTML,
-      CSS, SQL, server and network protocols and more
+    - Learned the fundamentals of programming, pseudo-code, algorithms, HTML and SQL.
+    - Server and network protocols.
   ]
 ]
 
 #custom-title("Experience")[
   #work-heading(
-    "Front-end", // title
-    "Freelance", // company
+    "Freelance", // title
+    "", // company
     "", // location
     datetime(year: 2025, month: 8, day: 1), // start-date
     "Present", // end-date
   )[
-    #project-heading(
-      "Jet-Aime", // name
-      project-url: "jet-aime.com.ar",
-      stack: " React, TanStack (Start, Router, Query), MongoDB, Better-Auth, TailwindCSS", // stack
-    )[
-      - Full-Stack Website for a local business, helping them reach a wider audience and increasing sales.
-      - Allows the user to filter products.
-      - Admin dashboard helping manage their products.
-      - Images are handled with Vercel Blobs.
-    ]
-
+    - #project-heading(
+        "Jet-Aime", // name
+        project-url: "jet-aime.com.ar",
+        stack: " TypeScript, React, TanStack, MongoDB", // stack
+      )[
+        - Full-stack website for a local business, helping them reach a wider audience.
+        - Built with modern React tooling and a focus on responsive design.
+        - Admin dashboard for managing their database.
+      ]
   ]
 ]
 
 #custom-title("Projects")[
+  // #project-heading(
+  //   "RedditDeck",
+  //   project-url: "https://github.com/j-zunino/redditdeck",
+  //   stack: " React",
+  // )[
+  //   - Lorem Ipsum
+  // ]
+  //
   #project-heading(
-    "RedditDeck",
-    project-url: "https://github.com/j-zunino/redditdeck",
-    stack: " React, TailwindCSS",
+    "Tilix",
+    project-url: "https://github.com/j-zunino/tmux-tilix",
+    stack: " Tmux",
   )[
-    - WIP
+    - Tmux plugin that enhances pane and window management.
+    - Provides dynamic pane and window control inspired by DWM.
+    - Designed for efficient terminal-based multitasking.
   ]
 
   #project-heading(
     "SpeedTest",
-    project-url: "https://github.com/j-zunino/bootstrap-utn",
-    stack: " HTML, JavaScript, Bootstrap",
+    project-url: "https://j-zunino.github.io/bootstrap-utn/",
+    stack: " JavaScript, Bootstrap",
   )[
-    - A Human Benchmark-style website that allows users test their click speed and reaction time.
+    - Human Benchmark-style single-page that measures reaction time and click speed.
+    - Developed using Bootstrap and vanilla JavaScript.
+  ]
+
+  #project-heading(
+    "Wordle.py",
+    project-url: "https://github.com/j-zunino/worldle.py",
+    stack: " Python, DearPyGui",
+  )[
+    - Desktop Wordle clone built with DearPyGui Toolkit.
+    - Showcased on the official DearPyGui wiki.
   ]
 ]
 
 #custom-title("Skills")[
   #skills()[
     - *Languages:* Spanish (native), English (basic/intermediate)
-    - *Programming:* HTML, CSS, JavaScript, TypeScript, Lua, Nix
-    - *Frameworks & Libraries:* React, React Router, TanStack Query, TanStack Router, Tailwind CSS
-    - *Tools:* Git, Figma, Linux, Vim
+    - *Programming:* JavaScript, TypeScript, SQL, Lua.
+    - *Frameworks & Libraries:* React, TanStack (Start, Router, Query), ExpressJS, MongoDB, Sequelize.
+    - *Tools:* Git, Linux, Tmux, Vim.
   ]
 ]
