@@ -67,17 +67,17 @@
     "Freelance", // title
     "", // company
     "", // location
-    datetime(year: 2025, month: 8, day: 1), // start-date
+    datetime(year: 2025, month: 9, day: 1),
     "Present", // end-date
   )[
     - #project-heading(
-        "Jet-Aime", // name
+        "Jet-Aime",
         project-url: "jet-aime.com.ar",
-        stack: " TypeScript, React, TanStack, MongoDB", // stack
+        stack: " TypeScript, React, TanStack (Start, Query), MongoDB, Zod",
       )[
-        - Full-stack website for a local business, helping them reach a wider audience.
+        - E-commerce platform built for a local business.
         - Built with modern React tooling and a focus on responsive design.
-        - Admin dashboard for managing their database.
+        - Admin panel where authorized users manage their products.
       ]
   ]
 ]
@@ -102,12 +102,12 @@
   ]
 
   #project-heading(
-    "SpeedTest",
+    "Human-test",
     project-url: "https://j-zunino.github.io/bootstrap-utn/",
     stack: " JavaScript, Bootstrap",
   )[
-    - Human Benchmark-style single-page that measures reaction time and click speed.
-    - Developed using Bootstrap and vanilla JavaScript.
+    - Interactive single-page app that measures reaction time and click speed.
+    - Developed as a final project using Bootstrap and vanilla Javascript.
   ]
 
   #project-heading(
@@ -125,6 +125,6 @@
     - *Languages:* Spanish (native), English (basic/intermediate)
     - *Programming:* JavaScript, TypeScript, SQL, Lua.
     - *Frameworks & Libraries:* React, TanStack (Start, Router, Query), ExpressJS, MongoDB, Sequelize.
-    - *Tools:* Git, Linux, Tmux, Vim.
+    - *Tools:* Git, Linux, Vim.
   ]
 ]
