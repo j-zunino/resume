@@ -34,7 +34,7 @@
     - *Front-end*: JavaScript, React, React Router and TailwindCSS.
     - *Back-end*: NodeJS, ExpressJS, JWS, MongoDB, Mongoose, SQL, Sequilize and
       Python (Flask).
-    - Built and tested complete REST APIs.
+    - Developed and tested complete REST APIs.
   ]
 
   #education-heading(
@@ -57,8 +57,8 @@
     datetime(year: 2017, month: 3, day: 14),
     datetime(year: 2023, month: 12, day: 15),
   )[
-    - Learned the fundamentals of programming, pseudo-code, algorithms, HTML and SQL.
-    - Server and network protocols.
+    - Learned the fundamentals of programming, pseudo-code, algorithms, HTML,
+      SQL, server and network protocols.
   ]
 ]
 
@@ -68,12 +68,12 @@
     "", // company
     "", // location
     datetime(year: 2025, month: 9, day: 1),
-    "Present", // end-date
+    datetime(year: 2025, month: 12, day: 1),
   )[
     - #project-heading(
         "Jet-Aime",
         project-url: "jet-aime.com.ar",
-        stack: " TypeScript, React, TanStack (Start, Query), MongoDB, Zod",
+        stack: " TypeScript, React, TanStack (Start, Query), TailwindCSS, MongoDB, Zod",
       )[
         - E-commerce platform built for a local business.
         - Built with modern React tooling and a focus on responsive design.
@@ -83,14 +83,15 @@
 ]
 
 #custom-title("Projects")[
-  // #project-heading(
-  //   "RedditDeck",
-  //   project-url: "https://github.com/j-zunino/redditdeck",
-  //   stack: " React",
-  // )[
-  //   - Lorem Ipsum
-  // ]
-  //
+  #project-heading(
+    "RedditDeck",
+    project-url: "https://redditdeck.vercel.app",
+    stack: " TypeScript, React, Tanstack (Query), TailwindCSS",
+  )[
+    - TweetDeck-style web app for Reddit.
+    - Let's users see multiple Subreddits in a column layout.
+  ]
+
   #project-heading(
     "Tilix",
     project-url: "https://github.com/j-zunino/tmux-tilix",
@@ -106,7 +107,7 @@
     project-url: "https://j-zunino.github.io/bootstrap-utn/",
     stack: " JavaScript, Bootstrap",
   )[
-    - Interactive single-page app that measures reaction time and click speed.
+    - Interactive single-page that measures reaction time and click speed.
     - Developed as a final project using Bootstrap and vanilla Javascript.
   ]
 
