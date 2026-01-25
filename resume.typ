@@ -85,7 +85,7 @@
 #custom-title("Projects")[
   #project-heading(
     "RedditDeck",
-    project-url: "https://redditdeck.vercel.app",
+    project-url: "https://redditdeck.zunino.ar",
     stack: " TypeScript, React, Tanstack (Query), TailwindCSS",
   )[
     - TweetDeck-style web app for Reddit.
