@@ -14,6 +14,7 @@
   linkedin-user-id: linkedin,
   github-username: github,
   phone: phone,
+  location: "Argentina, Buenos Aires",
 
   top-margin: 0.45in,
   font: "New Computer Modern",
@@ -21,6 +22,79 @@
   author-position: center,
   personal-info-position: center,
 )
+
+#text(
+  "Front-end–focused developer with strong experience building responsive web applications using React and TypeScript. Interested in UI performance, developer tooling, and Linux-based workflows. Comfortable working across the stack when required.",
+)
+
+#custom-title("Projects")[
+  #project-heading(
+    "RedditDeck",
+    project-url: "https://redditdeck.zunino.ar",
+    stack: " TypeScript, React, Tanstack (Query), TailwindCSS",
+  )[
+    - Reddit client inspired by TweetDeck.
+    - Uses TanStack Query for efficient data fetching and caching.
+    - Responsive column-based layout optimized for desktop and mobile.
+  ]
+
+  #project-heading(
+    "Tilix",
+    project-url: "https://github.com/j-zunino/tmux-tilix",
+    stack: " Tmux",
+  )[
+    - Tmux plugin designed for efficient terminal-based multitasking.
+    - Enhances pane and window management.
+    - Provides dynamic pane and window control.
+  ]
+
+  #project-heading(
+    "Wordle.py",
+    project-url: "https://github.com/j-zunino/worldle.py",
+    stack: " Python, DearPyGui",
+  )[
+    - Wordle clone built with DearPyGui Toolkit.
+    - Showcased on the official DearPyGui wiki.
+  ]
+
+  #project-heading(
+    "Human-test",
+    project-url: "https://j-zunino.github.io/bootstrap-utn/",
+    stack: " JavaScript, Bootstrap",
+  )[
+    - Interactive single-page that measures reaction time and click speed.
+    - Developed as a final project using Bootstrap and JavaScript.
+  ]
+]
+
+#custom-title("Experience")[
+  #project-heading(
+    "Freelance", // title
+  )[
+    - #project-heading(
+        "Jet-Aime",
+        project-url: "jet-aime.com.ar",
+        stack: " TypeScript, React, TanStack (Start, Query), TailwindCSS, MongoDB, Zod",
+      )[
+        - Designed and implemented a full e-commerce front-end and back-end for
+          a local business using React and TypeScript.
+        - Implemented product filtering with client-side caching using TanStack
+          Query.
+        - Built an admin dashboard with authentication and product management
+          (CRUD).
+      ]
+  ]
+]
+
+#custom-title("Skills")[
+  #skills()[
+    - *Languages:* JavaScript, TypeScript, SQL, Lua.
+    - *Front-end:* React, TanStack (Query, Router, Start), TailwindCSS.
+    - *Back-end:* Node.js, Express.js, MongoDB, Mongoose, Sequelize.
+    - *Spoken Languages:* Spanish, English: Intermediate (written), Basic
+      (spoken).
+  ]
+]
 
 #custom-title("Education")[
   #education-heading(
@@ -32,9 +106,10 @@
     datetime(year: 2025, month: 12, day: 2), // end-date
   )[
     - *Front-end*: JavaScript, React, React Router and TailwindCSS.
-    - *Back-end*: NodeJS, ExpressJS, JWS, MongoDB, Mongoose, SQL, Sequilize and
-      Python (Flask).
-    - Developed and tested complete REST APIs.
+    - *Back-end*: Node.js, Express.js, JWT, MongoDB, Mongoose, SQL, Sequelize and
+      Python (Flask), Swagger (UI Express).
+    - Completed multiple projects focused on designing and developing websites,
+      APIs and databases.
   ]
 
   #education-heading(
@@ -46,7 +121,8 @@
     datetime(year: 2024, month: 9, day: 13),
   )[
     - Developed responsive interfaces using HTML, CSS, JavaScript and Bootstrap.
-    - Completed 4+ websites, including designing and developing a mobile-first website using Bootstrap and JavaScript.
+    - Completed 4+ websites, including designing and developing a mobile-first
+      website using Bootstrap and JavaScript.
   ]
 
   #education-heading(
@@ -59,73 +135,5 @@
   )[
     - Learned the fundamentals of programming, pseudo-code, algorithms, HTML,
       SQL, server and network protocols.
-  ]
-]
-
-#custom-title("Experience")[
-  #work-heading(
-    "Freelance", // title
-    "", // company
-    "", // location
-    datetime(year: 2025, month: 9, day: 1),
-    datetime(year: 2025, month: 12, day: 1),
-  )[
-    - #project-heading(
-        "Jet-Aime",
-        project-url: "jet-aime.com.ar",
-        stack: " TypeScript, React, TanStack (Start, Query), TailwindCSS, MongoDB, Zod",
-      )[
-        - E-commerce platform built for a local business.
-        - Built with modern React tooling and a focus on responsive design.
-        - Admin panel where authorized users manage their products.
-      ]
-  ]
-]
-
-#custom-title("Projects")[
-  #project-heading(
-    "RedditDeck",
-    project-url: "https://redditdeck.zunino.ar",
-    stack: " TypeScript, React, Tanstack (Query), TailwindCSS",
-  )[
-    - TweetDeck-style web app for Reddit.
-    - Let's users see multiple Subreddits in a column layout.
-  ]
-
-  #project-heading(
-    "Tilix",
-    project-url: "https://github.com/j-zunino/tmux-tilix",
-    stack: " Tmux",
-  )[
-    - Tmux plugin that enhances pane and window management.
-    - Provides dynamic pane and window control inspired by DWM.
-    - Designed for efficient terminal-based multitasking.
-  ]
-
-  #project-heading(
-    "Human-test",
-    project-url: "https://j-zunino.github.io/bootstrap-utn/",
-    stack: " JavaScript, Bootstrap",
-  )[
-    - Interactive single-page that measures reaction time and click speed.
-    - Developed as a final project using Bootstrap and vanilla Javascript.
-  ]
-
-  #project-heading(
-    "Wordle.py",
-    project-url: "https://github.com/j-zunino/worldle.py",
-    stack: " Python, DearPyGui",
-  )[
-    - Desktop Wordle clone built with DearPyGui Toolkit.
-    - Showcased on the official DearPyGui wiki.
-  ]
-]
-
-#custom-title("Skills")[
-  #skills()[
-    - *Languages:* Spanish (native), English (basic/intermediate)
-    - *Programming:* JavaScript, TypeScript, SQL, Lua.
-    - *Frameworks & Libraries:* React, TanStack (Start, Router, Query), ExpressJS, MongoDB, Sequelize.
-    - *Tools:* Git, Linux, Vim.
   ]
 ]
