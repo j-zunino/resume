@@ -29,6 +29,19 @@
 
 #custom-title("Projects")[
   #project-heading(
+    "Jet-Aime",
+    project-url: "jet-aime.com.ar",
+    stack: " TypeScript, React, TanStack (Start, Query), TailwindCSS, MongoDB, Zod",
+  )[
+    - Designed and implemented a full e-commerce front-end and back-end for a
+      real local business using React and TypeScript.
+    - Implemented product filtering with client-side caching using TanStack
+      Query.
+    - Built an admin dashboard with authentication and product management
+      (CRUD).
+  ]
+
+  #project-heading(
     "RedditDeck",
     project-url: "https://redditdeck.zunino.ar",
     stack: " TypeScript, React, Tanstack (Query), TailwindCSS",
@@ -64,25 +77,6 @@
   )[
     - Interactive single-page that measures reaction time and click speed.
     - Developed as a final project using Bootstrap and JavaScript.
-  ]
-]
-
-#custom-title("Experience")[
-  #project-heading(
-    "Freelance", // title
-  )[
-    - #project-heading(
-        "Jet-Aime",
-        project-url: "jet-aime.com.ar",
-        stack: " TypeScript, React, TanStack (Start, Query), TailwindCSS, MongoDB, Zod",
-      )[
-        - Designed and implemented a full e-commerce front-end and back-end for
-          a local business using React and TypeScript.
-        - Implemented product filtering with client-side caching using TanStack
-          Query.
-        - Built an admin dashboard with authentication and product management
-          (CRUD).
-      ]
   ]
 ]
 
