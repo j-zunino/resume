@@ -33,8 +33,8 @@ across the stack when needed.
     project-url: "jet-aime.com.ar",
     stack: " TypeScript, React, TanStack (Start, Query), TailwindCSS, MongoDB, Zod",
   )[
-    - Designed and implemented a full e-commerce front-end and back-end for a
-      real local business using React and TypeScript.
+    - Designed and implemented a full-stack e-commerce platform for a local
+      business, archiving 100+ visits per day.
     - Implemented product filtering with client-side caching using TanStack
       Query.
     - Built an admin dashboard with authentication and product management
@@ -56,7 +56,7 @@ across the stack when needed.
     project-url: "https://github.com/j-zunino/tmux-tilix",
     stack: " Tmux",
   )[
-    - Tmux plugin designed for efficient terminal-based multitasking.
+    - Developed a Tmux plugin that cut configuration by 40%+, becoming my primary terminal-based workflow tool.
     - Enhances pane and window management.
     - Provides dynamic pane and window control.
   ]
