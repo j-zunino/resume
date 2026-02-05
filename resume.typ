@@ -23,9 +23,9 @@
   personal-info-position: center,
 )
 
-#text(
-  "Front-end–focused developer with strong experience building responsive web applications using React and TypeScript. Interested in UI performance, developer tooling, and Linux-based workflows. Comfortable working across the stack when required.",
-)
+Front-end–focused developer building responsive, data-driven web applications
+with React and TypeScript. Strong interest in UI performance. Experienced working
+across the stack when needed.
 
 #custom-title("Projects")[
   #project-heading(
@@ -85,7 +85,7 @@
     - *Languages:* JavaScript, TypeScript, SQL, Lua.
     - *Front-end:* React, TanStack (Query, Router, Start), TailwindCSS.
     - *Back-end:* Node.js, Express.js, MongoDB, Mongoose, Sequelize.
-    - *Spoken Languages:* Spanish, English: Intermediate (written), Basic
+    - *Spoken Languages:* Spanish (Native), English: Intermediate (written), Basic
       (spoken).
   ]
 ]
