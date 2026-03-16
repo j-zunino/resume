@@ -36,4 +36,6 @@ jobs:
         with:
           tag_name: latest
           name: "${{ env.DATE }}"
-          files: *.pdf
+          files: |
+            Juan_Bautista_Zunino_Resume.pdf
+            Juan_Bautista_Zunino_Resume_es.pdf
