@@ -19,8 +19,7 @@ jobs:
             resume_es.typ
 
       - name: Rename PDF
-        run: mv resume.pdf Juan_Bautista_Zunino_Resume.pdf
-        run: mv resume_es.pdf Juan_Bautista_Zunino_Resume_es.pdf
+        run: mv resume.pdf Juan_Bautista_Zunino_Resume.pdf && mv resume_es.pdf Juan_Bautista_Zunino_Resume_es.pdf
 
       - name: Get current date
         id: date
