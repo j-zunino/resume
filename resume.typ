@@ -23,8 +23,8 @@
   personal-info-position: center,
 )
 
-Front-end–focused developer building responsive, data-driven web applications
-with React and TypeScript. Strong interest in UI performance. Experienced working
+Front-end–focused developer building responsive web applications with React
+and TypeScript. Strong interest in UI performance. Experienced working
 across the stack when needed.
 
 #custom-title("Projects")[
@@ -56,7 +56,8 @@ across the stack when needed.
     project-url: "https://github.com/j-zunino/tmux-tilix",
     stack: " Tmux",
   )[
-    - Developed a Tmux plugin that cut configuration by 40%+, becoming my primary terminal-based workflow tool.
+    - Developed a Tmux plugin that cut configuration by 40%+, becoming my
+      primary terminal-based workflow tool.
     - Enhances pane and window management.
     - Provides dynamic pane and window control.
   ]

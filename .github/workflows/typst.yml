@@ -14,10 +14,13 @@ jobs:
       - name: Compile typst
         uses: lvignoli/typst-action@main
         with:
-          source_file: resume.typ
+          source_file: |
+            resume.typ
+            resume_es.typ
 
       - name: Rename PDF
         run: mv resume.pdf Juan_Bautista_Zunino_Resume.pdf
+        run: mv resume_es.pdf Juan_Bautista_Zunino_Resume_es.pdf
 
       - name: Get current date
         id: date
@@ -33,4 +36,4 @@ jobs:
         with:
           tag_name: latest
           name: "${{ env.DATE }}"
-          files: Juan_Bautista_Zunino_Resume.pdf
+          files: *.pdf
