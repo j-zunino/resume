@@ -23,43 +23,37 @@
   personal-info-position: center,
 )
 
-Front-end–focused developer building responsive web applications with React
-and TypeScript. Strong interest in UI performance. Experienced working
-across the stack when needed.
+Front-end–focused developer specializing in high-performance React applications.
+Experience delivering production-ready products for real clients. Strong focus on
+UI performance and scalable architecture.
+
+#custom-title("Experience")[
+  #work-heading(
+    "Full-stack Developer",
+    "Jet-Aime",
+    "Argentina (Remote)",
+    datetime(year: 2025, month: 10, day: 1),
+    datetime(year: 2025, month: 12, day: 1),
+  )[
+    - Developed and deployed a full-stack e-commerce platform using TypeScript, React and
+      TanStack Start for a local business.
+    - Delivered a production-ready system handling 100+ daily visits.
+    - Implemented product filtering with client-side caching using TanStack Query, reducing redundant requests and improving perceived performance.
+    - Built an admin dashboard with authentication and full product management (CRUD).
+  ]
+]
+
 
 #custom-title("Projects")[
-  #project-heading(
-    "Jet-Aime",
-    project-url: "jet-aime.com.ar",
-    stack: " TypeScript, React, TanStack (Start, Query), TailwindCSS, MongoDB, Zod",
-  )[
-    - Designed and implemented a full-stack e-commerce platform for a local
-      business, archiving 100+ visits per day.
-    - Implemented product filtering with client-side caching using TanStack
-      Query.
-    - Built an admin dashboard with authentication and product management
-      (CRUD).
-  ]
-
   #project-heading(
     "RedditDeck",
     project-url: "https://redditdeck.zunino.ar",
     stack: " TypeScript, React, Tanstack (Query), TailwindCSS",
   )[
-    - Reddit client inspired by TweetDeck.
-    - Uses TanStack Query for efficient data fetching and caching.
-    - Responsive column-based layout optimized for desktop and mobile.
-  ]
-
-  #project-heading(
-    "Tilix",
-    project-url: "https://github.com/j-zunino/tmux-tilix",
-    stack: " Tmux",
-  )[
-    - Developed a Tmux plugin that cut configuration by 40%+, becoming my
-      primary terminal-based workflow tool.
-    - Enhances pane and window management.
-    - Provides dynamic pane and window control.
+    - Built a Reddit client inspired by TweetDeck with a column-based layout.
+    - Implemented efficient data fetching and caching using TanStack Query.
+    - Designed a responsive UI optimized for both desktop and mobile
+      workflows.
   ]
 
   #project-heading(
@@ -67,17 +61,8 @@ across the stack when needed.
     project-url: "https://github.com/j-zunino/worldle.py",
     stack: " Python, DearPyGui",
   )[
-    - Wordle clone built with DearPyGui Toolkit.
-    - Showcased on the official DearPyGui wiki.
-  ]
-
-  #project-heading(
-    "Human-test",
-    project-url: "https://j-zunino.github.io/bootstrap-utn/",
-    stack: " JavaScript, Bootstrap",
-  )[
-    - Interactive single-page that measures reaction time and click speed.
-    - Developed as a final project using Bootstrap and JavaScript.
+    - Developed a Wordle clone using DearPyGui Toolkit.
+    - Featured on the official DearPyGui wiki.
   ]
 ]
 
@@ -85,20 +70,20 @@ across the stack when needed.
   #skills()[
     - *Languages:* JavaScript, TypeScript, SQL, Lua.
     - *Front-end:* React, TanStack (Query, Router, Start), TailwindCSS.
-    - *Back-end:* Node.js, Express.js, MongoDB, Mongoose, Sequelize.
+    - *Back-end:* Node.js, Express.js, MongoDB, Mongoose, Sequelize, PostgreSQL, Prisma.
     - *Spoken Languages:* Spanish (Native), English: Intermediate (written), Basic
-      (spoken).
+    (spoken).
   ]
 ]
 
 #custom-title("Education")[
   #education-heading(
-    "Universidad Nacional de Tres de Febrero", // institution
-    "", // location
+    "Universidad Nacional de Tres de Febrero",
+    "",
     "Course",
     "Front-end & Back-end Development",
-    datetime(year: 2024, month: 3, day: 18), // start-date
-    datetime(year: 2025, month: 12, day: 2), // end-date
+    datetime(year: 2024, month: 3, day: 18),
+    datetime(year: 2025, month: 12, day: 2),
   )[
     - *Front-end*: JavaScript, React, React Router and TailwindCSS.
     - *Back-end*: Node.js, Express.js, JWT, MongoDB, Mongoose, SQL, Sequelize and
