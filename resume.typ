@@ -23,9 +23,10 @@
   personal-info-position: center,
 )
 
-Front-end–focused developer specializing in high-performance React applications.
-Experience delivering production-ready products for real clients. Strong focus on
-UI performance and scalable architecture.
+Front-end developer specializing in high-performance React applications with
+component-based architecture. Experience delivering production-ready products
+for real clients with a strong focus on UI performance, state management, and
+scalable architecture.
 
 #custom-title("Experience")[
   #work-heading(
@@ -35,10 +36,11 @@ UI performance and scalable architecture.
     datetime(year: 2025, month: 10, day: 1),
     datetime(year: 2025, month: 12, day: 1),
   )[
-    - Developed and deployed a full-stack e-commerce platform using TypeScript, React and
-      TanStack Start for a local business.
+    - Developed and deployed a full-stack e-commerce platform using TypeScript,
+      React and TanStack Start for a local business.
+    - Implemented product filtering with client-side caching using TanStack
+      Query, reducing redundant requests and improving perceived performance.
     - Delivered a production-ready system handling 100+ daily visits.
-    - Implemented product filtering with client-side caching using TanStack Query, reducing redundant requests and improving perceived performance.
     - Built an admin dashboard with authentication and full product management (CRUD).
   ]
 ]
@@ -52,8 +54,7 @@ UI performance and scalable architecture.
   )[
     - Built a Reddit client inspired by TweetDeck with a column-based layout.
     - Implemented efficient data fetching and caching using TanStack Query.
-    - Designed a responsive UI optimized for both desktop and mobile
-      workflows.
+    - Designed a responsive UI optimized for desktop and mobile workflows.
   ]
 
   #project-heading(
@@ -68,11 +69,10 @@ UI performance and scalable architecture.
 
 #custom-title("Skills")[
   #skills()[
-    - *Languages:* JavaScript, TypeScript, SQL, Lua.
+    - *Languages:* JavaScript, TypeScript.
     - *Front-end:* React, TanStack (Query, Router, Start), TailwindCSS.
-    - *Back-end:* Node.js, Express.js, MongoDB, Mongoose, Sequelize, PostgreSQL, Prisma.
-    - *Spoken Languages:* Spanish (Native), English: Intermediate (written), Basic
-    (spoken).
+    - *Back-end:* Node.js, Express.js, MongoDB, PostgreSQL, Prisma, Mongoose.
+    - *Spoken Languages:* Spanish (Native), English: Intermediate (written), Basic (spoken).
   ]
 ]
 
