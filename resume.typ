@@ -86,8 +86,8 @@ scalable architecture.
     datetime(year: 2025, month: 12, day: 2),
   )[
     - *Front-end*: JavaScript, React, React Router and TailwindCSS.
-    - *Back-end*: Node.js, Express.js, JWT, MongoDB, Mongoose, SQL, Sequelize and
-      Python (Flask), Swagger (UI Express).
+    - *Back-end*: Node.js, Express.js, JWT, MongoDB, Mongoose, SQL, Sequelize,
+      Python (Flask) and Swagger (UI Express).
     - Completed multiple projects focused on designing and developing websites,
       APIs and databases.
   ]
@@ -102,7 +102,7 @@ scalable architecture.
   )[
     - Developed responsive interfaces using HTML, CSS, JavaScript and Bootstrap.
     - Completed 4+ websites, including designing and developing a mobile-first
-      website using Bootstrap and JavaScript.
+      website using JavaScript and Bootstrap.
   ]
 
   #education-heading(
