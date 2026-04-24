@@ -23,42 +23,39 @@
   personal-info-position: center,
 )
 
-Desarrollador enfocado en front-end que construye aplicaciones web responsivas
-utilizando React y TypeScript. Fuerte interés en el rendimiento de interfaces
-de usuario. Experiencia trabajando en todo el stack cuando es necesario.
+Desarrollador front-end especializado en aplicaciones React de alto rendimiento
+con arquitectura basada en componentes. Experiencia entregando productos listos
+para producción para clientes reales con un enfoque fuerte en rendimiento de UI,
+gestión de estado y arquitectura escalable.
 
-#custom-title("Proyectos")[
-  #project-heading(
+#custom-title("Experiencia")[
+  #work-heading(
+    "Full-stack Developer",
     "Jet-Aime",
-    project-url: "jet-aime.com.ar",
-    stack: " TypeScript, React, TanStack (Start, Query), TailwindCSS, MongoDB, Zod",
+    "Argentina (Remoto)",
+    datetime(year: 2025, month: 10, day: 1),
+    datetime(year: 2025, month: 12, day: 1),
   )[
-    - Diseñé e implementé una plataforma de e-commerce full-stack para un
-      negocio local, alcanzando más de 100 visitas por día.
+    - Desarrollé e implementé una plataforma de e-commerce full-stack usando
+      TypeScript, React y TanStack Start para un negocio local.
     - Implementé filtrado de productos con caché en el client-side utilizando
-      TanStack Query.
+      TanStack Query, reduciendo requests redundantes y mejorando el
+      rendimiento percibido.
+    - Entregué un sistema production-ready manejando más de 100 visitas por día.
     - Desarrollé un panel admin con autenticación y gestión de productos (CRUD).
   ]
+]
 
+
+#custom-title("Proyectos")[
   #project-heading(
     "RedditDeck",
     project-url: "https://redditdeck.zunino.ar",
     stack: " TypeScript, React, Tanstack (Query), TailwindCSS",
   )[
-    - Cliente de Reddit inspirado en TweetDeck.
+    - Cliente de Reddit inspirado en TweetDeck con diseño basado en columnas.
     - Utiliza TanStack Query para la obtención y caché eficiente de datos.
-    - Diseño responsivo basado en columnas optimizado para escritorio y móvil.
-  ]
-
-  #project-heading(
-    "Tilix",
-    project-url: "https://github.com/j-zunino/tmux-tilix",
-    stack: " Tmux",
-  )[
-    - Desarrollé un plugin de Tmux que redujo la configuración en más de un 40%,
-      convirtiéndose en mi herramienta principal dentro de la terminal.
-    - Mejora la gestión de paneles y ventanas.
-    - Proporciona control dinámico de paneles y ventanas.
+    - Diseño responsivo optimizado para escritorio y móvil.
   ]
 
   #project-heading(
@@ -69,22 +66,13 @@ de usuario. Experiencia trabajando en todo el stack cuando es necesario.
     - Clon de Wordle construido con el toolkit DearPyGui.
     - Presentado en la wiki oficial de DearPyGui.
   ]
-
-  #project-heading(
-    "Human-test",
-    project-url: "https://j-zunino.github.io/bootstrap-utn/",
-    stack: " JavaScript, Bootstrap",
-  )[
-    - Página interactiva que mide el tiempo de reacción y la velocidad de clics.
-    - Desarrollado como proyecto final utilizando Bootstrap y JavaScript.
-  ]
 ]
 
 #custom-title("Habilidades")[
   #skills()[
-    - *Lenguajes:* JavaScript, TypeScript, SQL, Lua.
+    - *Lenguajes:* JavaScript, TypeScript.
     - *Front-end:* React, TanStack (Query, Router, Start), TailwindCSS.
-    - *Back-end:* Node.js, Express.js, MongoDB, Mongoose, Sequelize.
+    - *Back-end:* Node.js, Express.js, MongoDB, PostgreSQL, Prisma, Mongoose.
     - *Idiomas:* Español (Nativo), Inglés: Intermedio (escrito), Básico (hablado).
   ]
 ]
@@ -99,8 +87,8 @@ de usuario. Experiencia trabajando en todo el stack cuando es necesario.
     datetime(year: 2025, month: 12, day: 2),
   )[
     - *Front-end*: JavaScript, React, React Router y TailwindCSS.
-    - *Back-end*: Node.js, Express.js, JWT, MongoDB, Mongoose, SQL, Sequelize y
-      Python (Flask), Swagger (UI Express).
+    - *Back-end*: Node.js, Express.js, JWT, MongoDB, Mongoose, SQL, Sequelize,
+      Python (Flask) y Swagger (UI Express).
     - Completé múltiples proyectos enfocados en el diseño y desarrollo de sitios
       web, APIs y bases de datos.
   ]
@@ -116,7 +104,7 @@ de usuario. Experiencia trabajando en todo el stack cuando es necesario.
     - Desarrollé interfaces responsivas utilizando HTML, CSS, JavaScript y
       Bootstrap.
     - Completé más de 4 sitios web, incluyendo el diseño y desarrollo de un
-      sitio mobile-first utilizando Bootstrap y JavaScript.
+      sitio mobile-first utilizando JavaScript y Bootstrap.
   ]
 
   #education-heading(
@@ -127,7 +115,7 @@ de usuario. Experiencia trabajando en todo el stack cuando es necesario.
     datetime(year: 2017, month: 3, day: 14),
     datetime(year: 2023, month: 12, day: 15),
   )[
-    - Aprendí fundamentos de programación, pseudocódigo, algoritmos, HTML, SQL,
+    - Aprendí los fundamentos de la programación, pseudocódigo, algoritmos, HTML, SQL,
       servidores y protocolos de red.
   ]
 ]
