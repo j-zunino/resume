@@ -42,6 +42,7 @@ scalable architecture.
       Query, reducing redundant requests and improving perceived performance.
     - Delivered a production-ready system handling 100+ daily visits.
     - Built an admin dashboard with authentication and full product management (CRUD).
+    - Managed deployment and environment configuration for the production system.
   ]
 ]
 

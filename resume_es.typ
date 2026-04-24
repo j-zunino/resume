@@ -43,6 +43,7 @@ gestión de estado y arquitectura escalable.
       rendimiento percibido.
     - Entregué un sistema production-ready manejando más de 100 visitas por día.
     - Desarrollé un panel admin con autenticación y gestión de productos (CRUD).
+    - Gestioné el deployment y configuración del entorno para el sistema en producción.
   ]
 ]
 
