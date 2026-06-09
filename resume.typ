@@ -1,8 +1,8 @@
 #import "@preview/simple-technical-resume:0.1.1": *
 
 #let name = "Juan Bautista Zunino"
-#let email = "him@zunino.ar"
-#let personal-site = "zunino.ar"
+#let email = "contact@jzunino.com.ar"
+#let personal-site = "jzunino.com.ar"
 #let linkedin = "juanbautistazunino"
 #let github = "j-zunino"
 #let phone = ""
@@ -22,11 +22,6 @@
   author-position: center,
   personal-info-position: center,
 )
-
-Front-end developer specializing in high-performance React applications with
-component-based architecture. Experience delivering production-ready products
-for real clients with a strong focus on UI performance, state management, and
-scalable architecture.
 
 #custom-title("Experience")[
   #work-heading(
@@ -50,7 +45,7 @@ scalable architecture.
 #custom-title("Projects")[
   #project-heading(
     "RedditDeck",
-    project-url: "https://redditdeck.zunino.ar",
+    project-url: "https://redditdeck.jzunino.com.ar",
     stack: " TypeScript, React, Tanstack (Query), TailwindCSS",
   )[
     - Built a Reddit client inspired by TweetDeck with a column-based layout.
@@ -60,7 +55,7 @@ scalable architecture.
 
   #project-heading(
     "Wordle.py",
-    project-url: "https://github.com/j-zunino/worldle.py",
+    project-url: "https://github.com/j-zunino/wordle.py",
     stack: " Python, DearPyGui",
   )[
     - Developed a Wordle clone using DearPyGui Toolkit.

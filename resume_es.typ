@@ -1,8 +1,8 @@
 #import "@preview/simple-technical-resume:0.1.1": *
 
 #let name = "Juan Bautista Zunino"
-#let email = "him@zunino.ar"
-#let personal-site = "zunino.ar"
+#let email = "contact@jzunino.com.ar"
+#let personal-site = "jzunino.com.ar"
 #let linkedin = "juanbautistazunino"
 #let github = "j-zunino"
 #let phone = ""
@@ -22,11 +22,6 @@
   author-position: center,
   personal-info-position: center,
 )
-
-Desarrollador front-end especializado en aplicaciones React de alto rendimiento
-con arquitectura basada en componentes. Experiencia entregando productos listos
-para producción para clientes reales con un enfoque fuerte en rendimiento de UI,
-gestión de estado y arquitectura escalable.
 
 #custom-title("Experiencia")[
   #work-heading(
@@ -51,7 +46,7 @@ gestión de estado y arquitectura escalable.
 #custom-title("Proyectos")[
   #project-heading(
     "RedditDeck",
-    project-url: "https://redditdeck.zunino.ar",
+    project-url: "https://redditdeck.jzunino.com.ar",
     stack: " TypeScript, React, Tanstack (Query), TailwindCSS",
   )[
     - Cliente de Reddit inspirado en TweetDeck con diseño basado en columnas.
