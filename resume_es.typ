@@ -37,7 +37,7 @@ aplicaciones basadas en bases de datos.
   title: "Desarrollador Full-stack",
   location: "Argentina (Remoto)",
   company: "Jet-Aime",
-  dates: dates-helper(start-date: "May 2024", end-date: "Jul 2024"),
+  dates: dates-helper(start-date: "Oct 2025", end-date: "Dic 2025"),
 )
 - Desarrollé interfaces responsivas optimizadas para experiencias de escritorio
   y dispositivos móviles

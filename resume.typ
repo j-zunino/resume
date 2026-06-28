@@ -36,7 +36,7 @@ building REST APIs, authentication systems and database-driven applications.
   title: "Full-stack Developer",
   location: "Argentina (Remote)",
   company: "Jet-Aime",
-  dates: dates-helper(start-date: "May 2024", end-date: "Jul 2024"),
+  dates: dates-helper(start-date: "Oct 2025", end-date: "Dec 2025"),
 )
 - Developed responsive user interfaces optimized for desktop and mobile
   experiences
