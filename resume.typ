@@ -40,7 +40,7 @@ building REST APIs, authentication systems and database-driven applications.
 )
 - Developed responsive user interfaces optimized for desktop and mobile
   experiences
-- Implemented advanced product filtering, caching strategies and data fetching
+- Implemented product filtering, caching strategies and data fetching
   optimization using TanStack Query
 - Created an administrative dashboard with authentication, authorization and
   complete product management workflows
