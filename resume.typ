@@ -1,115 +1,137 @@
-#import "@preview/simple-technical-resume:0.1.1": *
+#import "@preview/basic-resume:0.2.9": *
 
 #let name = "Juan Bautista Zunino"
-#let email = "contact@jzunino.com.ar"
-#let personal-site = "jzunino.com.ar"
-#let linkedin = "juanbautistazunino"
-#let github = "j-zunino"
+#let location = "Buenos Aires, Argentina"
+#let email = "contact@jzunino.com"
+#let github = "github.com/j-zunino"
+#let linkedin = "linkedin.com/in/juanbautistazunino"
 #let phone = ""
+#let personal-site = "jzunino.com.ar"
 
 #show: resume.with(
-  author-name: name,
+  author: name,
+  location: location,
   email: email,
-  website: personal-site,
-  linkedin-user-id: linkedin,
-  github-username: github,
-  phone: phone,
-  location: "Argentina, Buenos Aires",
-
-  top-margin: 0.45in,
+  github: github,
+  linkedin: linkedin,
+  // phone: phone,
+  personal-site: personal-site,
+  accent-color: "#000",
   font: "New Computer Modern",
-  personal-info-font-size: 9.2pt,
-  author-position: center,
-  personal-info-position: center,
+  paper: "us-letter",
+  author-position: left,
+  personal-info-position: left,
 )
 
-#custom-title("Experience")[
-  #work-heading(
-    "Full-stack Developer",
-    "Jet-Aime",
-    "Argentina (Remote)",
-    datetime(year: 2025, month: 10, day: 1),
-    datetime(year: 2025, month: 12, day: 1),
-  )[
-    - Developed and deployed a full-stack e-commerce platform using TypeScript,
-      React and TanStack Start for a local business.
-    - Implemented product filtering with client-side caching using TanStack
-      Query, reducing redundant requests and improving perceived performance.
-    - Delivered a production-ready system handling 100+ daily visits.
-    - Built an admin dashboard with authentication and full product management (CRUD).
-    - Managed deployment and environment configuration for the production system.
-  ]
-]
+== Profile
 
+Full-stack Developer specialized in Front-end development, focused on building
+scalable, performant and accessible web applications. Experienced with React,
+TypeScript and modern frontend ecosystems, with additional backend experience
+building REST APIs, authentication systems and database-driven applications.
 
-#custom-title("Projects")[
-  #project-heading(
-    "RedditDeck",
-    project-url: "https://redditdeck.jzunino.com.ar",
-    stack: " TypeScript, React, Tanstack (Query), TailwindCSS",
-  )[
-    - Built a Reddit client inspired by TweetDeck with a column-based layout.
-    - Implemented efficient data fetching and caching using TanStack Query.
-    - Designed a responsive UI optimized for desktop and mobile workflows.
-  ]
+== Work Experience
 
-  #project-heading(
-    "Wordle.py",
-    project-url: "https://github.com/j-zunino/wordle.py",
-    stack: " Python, DearPyGui",
-  )[
-    - Developed a Wordle clone using DearPyGui Toolkit.
-    - Featured on the official DearPyGui wiki.
-  ]
-]
+#work(
+  title: "Full-stack Developer",
+  location: "Argentina (Remote)",
+  company: "Jet-Aime",
+  dates: dates-helper(start-date: "May 2024", end-date: "Jul 2024"),
+)
+- Developed responsive user interfaces optimized for desktop and mobile
+  experiences
+- Implemented advanced product filtering, caching strategies and data fetching
+  optimization using TanStack Query
+- Created an administrative dashboard with authentication, authorization and
+  complete product management workflows
 
-#custom-title("Skills")[
-  #skills()[
-    - *Languages:* JavaScript, TypeScript.
-    - *Front-end:* React, TanStack (Query, Router, Start), TailwindCSS.
-    - *Back-end:* Node.js, Express.js, MongoDB, PostgreSQL, Prisma, Mongoose.
-    - *Spoken Languages:* Spanish (Native), English: Intermediate (written), Basic (spoken).
-  ]
-]
+== Projects
 
-#custom-title("Education")[
-  #education-heading(
-    "Universidad Nacional de Tres de Febrero",
-    "",
-    "Course",
-    "Front-end & Back-end Development",
-    datetime(year: 2024, month: 3, day: 18),
-    datetime(year: 2025, month: 12, day: 2),
-  )[
-    - *Front-end*: JavaScript, React, React Router and TailwindCSS.
-    - *Back-end*: Node.js, Express.js, JWT, MongoDB, Mongoose, SQL, Sequelize,
-      Python (Flask) and Swagger (UI Express).
-    - Completed multiple projects focused on designing and developing websites,
-      APIs and databases.
-  ]
+#project(
+  name: "Casa",
+  // role: "",
+  // url: "github.com/j-zunino/casa",
+)
+- Currently developing a full-stack household management platform using
+  TypeScript, React and the TanStack ecosystem in a monorepo architecture
+- Building a scalable frontend architecture with reusable components using
+  Radix UI and Tailwind CSS
+- Implementing shared form and data validation schemas using Zod across the
+  application
+- Developed authentication, member management, role-based permissions and
+  invitation workflows
 
-  #education-heading(
-    "Centro de e-Learning UTN FRBA",
-    "",
-    "Course",
-    "Professional Front-End Developer",
-    datetime(year: 2024, month: 2, day: 2),
-    datetime(year: 2024, month: 9, day: 13),
-  )[
-    - Developed responsive interfaces using HTML, CSS, JavaScript and Bootstrap.
-    - Completed 4+ websites, including designing and developing a mobile-first
-      website using JavaScript and Bootstrap.
-  ]
+#project(
+  name: "RedditDeck",
+  // role: "",
+  url: "redditdeck.jzunino.com.ar",
+)
+- Maintainer of an open-source Reddit client built with TypeScript and React
+- Implemented efficient server-state management and caching with TanStack Query
+- Improved user experience for content-heavy workflows through optimized data
+  loading and interface design
 
-  #education-heading(
-    "E.E.S.T. Nº3 Ing. Agustín Rocca",
-    "Zárate, Buenos Aires",
-    "High School Diploma",
-    "Personal and Professional Computer Technician",
-    datetime(year: 2017, month: 3, day: 14),
-    datetime(year: 2023, month: 12, day: 15),
-  )[
-    - Learned the fundamentals of programming, pseudo-code, algorithms, HTML,
-      SQL, server and network protocols.
-  ]
-]
+#project(
+  name: "Wordle.py",
+  // role: "",
+  url: "github.com/j-zunino/wordle.py",
+)
+- Built a Wordle clone using Python and DearPyGui Toolkit
+- Created a desktop graphical interface focused on usability
+- Featured on the official DearPyGui community wiki
+
+/*
+ * Lines that start with == are formatted into section headings
+ * You can use the specific formatting functions if needed
+ * The following formatting functions are listed below
+ * #edu(dates: "", degree: "", gpa: "", institution: "", location: "", consistent: false)
+ * #work(company: "", dates: "", location: "", title: "")
+ * #project(dates: "", name: "", role: "", url: "")
+ * certificates(name: "", issuer: "", url: "", date: "")
+ * #extracurriculars(activity: "", dates: "")
+ * There are also the following generic functions that don't apply any formatting
+ * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
+ * #generic-one-by-two(left: "", right: "")
+ */
+== Education
+
+#edu(
+  institution: "Universidad Nacional de Tres de Febrero",
+  location: "",
+  dates: dates-helper(start-date: "Mar 2024", end-date: "Dec 2025"),
+  degree: "Front-end & Back-end Development",
+  // consistent: true
+)
+- Developed applications using React, JavaScript, Node.js, Express.js and
+  database technologies
+- Built projects involving frontend architecture, APIs and data management
+
+#edu(
+  institution: "Centro de e-Learning UTN FRBA",
+  location: "",
+  dates: dates-helper(start-date: "Feb 2024", end-date: "Sep 2024"),
+  degree: "Professional Front-End Developer",
+  // consistent: true
+)
+- Built responsive interfaces using HTML, CSS, JavaScript and Bootstrap
+- Applied responsive and mobile-first development practices
+
+#edu(
+  institution: "E.E.S.T. Nº3 Ing. Agustín Rocca",
+  location: "Zárate, Buenos Aires",
+  dates: dates-helper(start-date: "Mar 2017", end-date: "Dec 2023"),
+  degree: "Personal and Professional Computer Technician",
+  // consistent: true
+)
+- Studied programming fundamentals, algorithms, databases, networking and
+  computer systems
+
+== Skills
+- *Programming Languages*: TypeScript, JavaScript, HTML, CSS, SQL, Bash
+- *Frontend*: React.js, TanStack Router, TanStack Query, TanStack Start,
+  Tailwind CSS
+- *Backend*: Node.js, Express.js, REST APIs, MongoDB, PostgreSQL, Prisma,
+  Mongoose, Sequelize
+- *Tools*: Git, Linux, Swagger, Zod
+- *Languages*: Spanish (Native), English
+

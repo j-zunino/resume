@@ -15,6 +15,7 @@
         tinymist
         typstyle
         typst
+        nodejs
       ];
     };
   };
