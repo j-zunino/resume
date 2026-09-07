@@ -30,13 +30,24 @@ scalable, performant and accessible web applications. Experienced with React,
 TypeScript and modern frontend ecosystems, with additional backend experience
 building REST APIs, authentication systems and database-driven applications.
 
-== Work Experience
+== Professional Experience
 
 #work(
-  title: "Full-stack Developer",
+  title: "Feelance Full-stack Developer",
+  location: "Argentina (Remote)",
+  company: "Cotulu",
+)
+- Designed and developed a product pricing application for calculating selling
+  prices from ingredient and operational costs
+- Implemented a product pricing system that calculates selling prices from
+  ingredient costs, additional operating costs and configurable markup
+- Built the application using TypeScript, React, Shadcn, Base UI, TanStack Start, TanStack Query,
+  Drizzle ORM and SQLite
+
+#work(
+  title: "Freelance Full-stack Developer",
   location: "Argentina (Remote)",
   company: "Jet-Aime",
-  dates: dates-helper(start-date: "Oct 2025", end-date: "Dec 2025"),
 )
 - Developed responsive user interfaces optimized for desktop and mobile
   experiences
@@ -50,7 +61,7 @@ building REST APIs, authentication systems and database-driven applications.
 #project(
   name: "Casa",
   // role: "",
-  // url: "github.com/j-zunino/casa",
+  url: "github.com/j-zunino/casa",
 )
 - Currently developing a full-stack household management platform using
   TypeScript, React and the TanStack ecosystem in a monorepo architecture
