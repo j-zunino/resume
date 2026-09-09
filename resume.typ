@@ -26,35 +26,31 @@
 == Profile
 
 Full-stack Developer specialized in Front-end development, focused on building
-scalable, performant and accessible web applications. Experienced with React,
-TypeScript and modern frontend ecosystems, with additional backend experience
-building REST APIs, authentication systems and database-driven applications.
+scalable, performant and accessible web applications. Experience with React,
+TypeScript and modern Front-end ecosystems, with additional Back-end experience.
 
 == Professional Experience
 
 #work(
-  title: "Feelance Full-stack Developer",
+  title: "Full-stack Developer (Freelance)",
   location: "Argentina (Remote)",
-  company: "Cotulu",
+  company: "Cotulú",
 )
-- Designed and developed a product pricing application for calculating selling
-  prices from ingredient and operational costs
-- Implemented a product pricing system that calculates selling prices from
-  ingredient costs, additional operating costs and configurable markup
-- Built the application using TypeScript, React, Shadcn, Base UI, TanStack Start, TanStack Query,
-  Drizzle ORM and SQLite
+- Developed a product pricing application from ingredient costs, additional
+  operating costs and markup
+- Responsive UI developed using React, Shadcn with Base UI and TanStack Query
+- Server-side built using TanStack Start, TanStack Query, Drizzle ORM, Cloudflare D1
+  and SQLite
 
 #work(
-  title: "Freelance Full-stack Developer",
+  title: "Full-stack Developer (Freelance)",
   location: "Argentina (Remote)",
   company: "Jet-Aime",
 )
-- Developed responsive user interfaces optimized for desktop and mobile
-  experiences
-- Implemented product filtering, caching strategies and data fetching
-  optimization using TanStack Query
-- Created an administrative dashboard with authentication, authorization and
-  complete product management workflows
+- Developed responsive UI using TypeScript, React and TanStack Start
+- Implemented product management in an administrative dashboard with
+  authentication and server-side data validation
+- Implemented product filtering, caching and data fetching using TanStack Query
 
 == Projects
 
