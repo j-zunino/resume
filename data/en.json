@@ -13,6 +13,8 @@
             "title": "Full-stack Developer (Freelance)",
             "location": "Argentina (Remote)",
             "company": "Cotulú",
+            "description": "Full-stack product pricing application for a local business",
+            "tech": ["typescript", "react", "tanstackstart"],
             "dates": {
                 "start": null,
                 "end": null
@@ -27,6 +29,8 @@
             "title": "Full-stack Developer (Freelance)",
             "location": "Argentina (Remote)",
             "company": "Jet-Aime",
+            "description": "Full-stack e-commerce for a local business",
+            "tech": ["typescript", "react", "tanstackstart", "mongodb"],
             "dates": {
                 "start": null,
                 "end": null
@@ -42,11 +46,13 @@
         {
             "name": "Casa",
             "role": null,
+            "description": "Open-source self-hosted home and finance manager (WIP)",
+            "tech": ["typescript", "react", "express", "postgres"],
             "dates": {
                 "start": null,
                 "end": null
             },
-            "url": "github.com/j-zunino/casa",
+            "url": "https://github.com/j-zunino/casa",
             "body": [
                 "Currently developing a full-stack household management platform using TypeScript, React and the TanStack ecosystem",
                 "Building a scalable frontend architecture with reusable components using Radix UI and Tailwind CSS",
@@ -57,11 +63,13 @@
         {
             "name": "RedditDeck",
             "role": null,
+            "description": "Open-source Reddit client",
+            "tech": ["typescript", "react"],
             "dates": {
                 "start": null,
                 "end": null
             },
-            "url": "redditdeck.jzunino.com.ar",
+            "url": "https://redditdeck.jzunino.com.ar",
             "body": [
                 "Maintainer of an open-source Reddit client built with TypeScript and React",
                 "Implemented efficient server-state management and caching with TanStack Query",
