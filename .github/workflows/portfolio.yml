@@ -1,0 +1,15 @@
+name: Update Portfolio
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Pages
+        run: |
+          curl -X POST "${{ secrets.CLOUDFLARE_PORTFOLIO_DEPLOY_HOOK }}"
